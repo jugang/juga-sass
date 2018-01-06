@@ -54,6 +54,7 @@ body {
   font-size: $default-font-size;
   font-weight: 700;
   text-transform: uppercase;
+  backface-visibility: hidden;
 }
 
 .paragaraph {
@@ -61,5 +62,5 @@ body {
 
   &:not(:last-child) {
     margin-bottom: 3rem;
-  }
+  } 
 }
