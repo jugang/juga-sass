@@ -1,0 +1,14 @@
+{
+  "name": "juga",
+  "version": "1.0.0",
+  "description": "Landing page for juga",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Jugoslav",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
