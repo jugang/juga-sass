@@ -40,11 +40,11 @@
 
 
 &--green {
-  background-color: #55c57a;
+  background-color: $color-primary;
   color: $color-white; 
 
     &::after {
-    background-color: #55c57a; 
+    background-color: $color-primary; 
     }
   }
 
